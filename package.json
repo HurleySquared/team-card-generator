@@ -1,0 +1,27 @@
+{
+  "name": "team-card-generator",
+  "version": "1.0.0",
+  "description": "Build a Team Profile Card based on a few different inputs through the command line",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose text/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HurleySquared/team-card-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HurleySquared/team-card-generator/issues"
+  },
+  "homepage": "https://github.com/HurleySquared/team-card-generator#readme",
+  "devDependencies": {
+    "just": "^0.1.8"
+  }
+}
