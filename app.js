@@ -18,14 +18,8 @@ const render = require("./lib/htmlRenderer");
 inquirer
   .prompt([
     {
-      type: 'list',
-      message: 'What is your role in the team?',
-      name: 'team',
-      choices: ['Manager', 'Engineer', 'Intern'],
-    },
-    {
       type: 'input',
-      message: 'What is your name?',
+      message: 'What is the Team Manager\'s Name?',
       name: 'name',
     },
     {
@@ -35,13 +29,19 @@ inquirer
     },
     {
       type: 'input',
-      message: 'What is your email?',
-      name: 'email',
+      message: 'What is your office number?',
+      name: 'office',
+    },
+    {
+      type: 'list',
+      name: 'members',
+      message: 'Which type of team member would you like to add?',
+      choices: ['Engineer', 'Intern', 'None'],
     },
     {
       type: 'input',
-      message: 'What is your office number?',
-      name: 'office',
+      message: 'What is your email?',
+      name: 'email',
     },
     {
       type: 'input',
