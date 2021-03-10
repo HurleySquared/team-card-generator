@@ -1,15 +1,16 @@
 // Starter file provided by Instructor (03/09/2021) AC
 
 const Intern = require("../lib/Intern");
+describe('Intern', () => {
+  test("Can set school via constructor", () => {
 
-test("Can set school via constructor", () => {
+  });
 
-});
+  test("getRole() should return \"Intern\"", () => {
 
-test("getRole() should return \"Intern\"", () => {
+  });
 
-});
+  test("Can get school via getSchool()", () => {
 
-test("Can get school via getSchool()", () => {
-
+  });
 });
